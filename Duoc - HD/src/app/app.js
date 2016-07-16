@@ -10,6 +10,8 @@ require('./components/home/home.js');
 require('./components/about/about.js');
 require('./components/highchart/chart.js');
 
+/***/
+
 var app = angular.module('myApp', ['ui.router','ngMaterial','highcharts-ng','myApp.home','myApp.about','myApp.chart']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
