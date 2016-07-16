@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body ng-app="myApp">
+    <div id="header" ui-view="header">
+    </div>
+    <div id="nav" ui-view="navigation">
+    </div>
+    <div id="section" ui-view="">
+    </div>
+</body>
+<script type="text/javascript" src="vendor.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="node_modules/highcharts/highcharts.js"></script>
+
+</html>
